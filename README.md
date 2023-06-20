@@ -39,6 +39,12 @@ This is an Online Voting Application Where user can create an account and create
 >
 > - nodemon
 
+#### Note :
+
+**In server.js file which is available in pollifyback directory**
+
+**In that file replace with your mongo db atlas connection url**
+
 # To Install All Dependencies in Frontend or Backend use the Below Commands
 - npm install
 
