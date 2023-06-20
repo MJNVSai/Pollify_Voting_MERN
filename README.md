@@ -7,6 +7,10 @@ This is an Online Voting Application Where user can create an account and create
 
 **DataBase :**  MongoDB Atlas
 
+**Frontend Directory :** pollifyvote
+
+**Backend Directory :** pollifyback
+
 **FrontEnd Dependencies :**
 
 > - Axios
