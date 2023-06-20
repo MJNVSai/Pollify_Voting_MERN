@@ -17,7 +17,7 @@ app.use(cors({
 }));
 
 //connect mongobd
-mongoose.connect('mongodb+srv://mjnvsai:mjnvsai@cluster0.kc6nhff.mongodb.net/firstdb?retryWrites=true&w=majority').then(
+mongoose.connect('mongo db connection url').then(
     console.log("Mongo Db Atlas is connected Sucessfully")
 );
 
