@@ -53,7 +53,7 @@ export default function VisitPolls()
 
   function FetchPoll() 
   {
-    axios.get(`http://13.233.43.131:5000/retrive/`).then((res) => {
+    axios.get(`http://52.91.245.211:5000/retrive/`).then((res) => {
       console.log(res.data);
       setPolldata(res.data);
       console.log("Poll Data variable: ", polldata);
