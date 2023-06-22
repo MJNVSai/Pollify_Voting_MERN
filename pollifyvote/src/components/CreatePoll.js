@@ -39,7 +39,7 @@ export default function CreatePoll()
         // });
         console.log(polldata)
 
-        axios.post(`http://13.233.43.131:5000/api/auth/createpoll`, polldata)
+        axios.post(`http://52.91.245.211:5000/api/auth/createpoll`, polldata)
         .then( res => {
             // alert(res.data);
             swal({
