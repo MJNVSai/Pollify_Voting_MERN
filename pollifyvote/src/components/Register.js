@@ -146,7 +146,7 @@ export default function Register()
     if(validation())
     {
 
-        axios.post(`http://13.233.43.131:5000/api/auth/register`, register)
+        axios.post(`http://52.91.245.211:5000/api/auth/register`, register)
         .then( res => {
             // alert(res.data);
             swal({
