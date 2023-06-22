@@ -16,7 +16,7 @@ export default function Login()
 
     const submitHandler = (e) => {
         e.preventDefault();
-        axios.post('http://13.233.43.131:5000/api/auth/login', login)
+        axios.post('http://52.91.245.211:5000/api/auth/login', login)
         .then( res => { 
             localStorage.setItem('token', res.data.token); 
             navigate('/') 
